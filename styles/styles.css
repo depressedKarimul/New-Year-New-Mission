@@ -3,15 +3,26 @@
  
   
 }
+.black-color{
+  color: #070211;
+}
 
 /* shared style */
 .font-Merriweather{
   font-family: "Merriweather", serif;
 }
 
+.text-position{
+  text-align: center;
+}
+.font-Inter{
+  font-family: "Inter", sans-serif;
+}
+
 .title-white-color {
   color:#FFF
 }
+
 
 
 
@@ -49,3 +60,44 @@ line-height: 95px;
 }
 
 
+
+/* Main style */
+
+.offer{
+  color: var(--orange-color);
+  
+ 
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.our-holiday-deals-are-better{
+  color: var(--orange-color);
+
+
+font-size: 24px;
+
+font-weight: 500;
+
+}
+
+.all-categories{
+  color: #070211;
+
+font-size: 48px;
+
+font-weight: 700;
+
+}
+
+.offer-section-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+
+  width: 100%;
+  height: 500px;
+ 
+}
