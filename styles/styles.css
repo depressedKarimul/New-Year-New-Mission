@@ -9,6 +9,9 @@
 }
 
 /* shared style */
+.orange-color{
+  color:#F00;
+}
 .font-Merriweather{
   font-family: "Merriweather", serif;
 }
@@ -144,4 +147,42 @@ font-size: 20px;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+}
+.address{
+  margin-top: 120px;
+  padding: 110px 386px 110px 386px;
+  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.address-btn{
+background-color: var(--orange-color);
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+text-align: center;
+
+
+
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.address-context{
+ 
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+}
+
+.address-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
